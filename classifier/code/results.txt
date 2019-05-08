@@ -1,0 +1,235 @@
+Final thresh = 0.95
+
+Train accuracy = 98.0%
+Test  accuracy = 99.0%
+
+Final Train => 0.95 [train_accuracy - 98.000, precision - 0.891878, recall - 0.924240, F1-score - 0.906312, MCC - 0.903972, TP - 3987.0, FP - 479.0, TN - 123383.0, FN - 331.0,]
+Final Test  => 0.95 [test_accuracy - 99.000, precision - 0.900271, recall - 0.925189, F1-score - 0.911357, MCC - 0.909048, TP - 984.0, FP - 110.0, TN - 30868.0, FN - 84.0]
+
+##############################################################################################################################################################################################
+
+Test ==>> [test_accuracy - 97.000, precision - 0.612967, recall - 0.968376, F1-score - 0.746651, MCC - 0.759233]
+
+Train ==>> [Epoch - 2.0, train_accuracy - 96.573, precision - 0.975484, recall - 0.959028, F1-score - 0.966954, MCC - 0.936802]
+Validation ==>> [validation_accuracy - 95.000, val_precision - 0.465419, val_recall - 0.964069, val_F1-score - 0.614497, MCC - 0.646052]
+
+Train ==>> [Epoch - 4.0, train_accuracy - 97.355, precision - 0.980465, recall - 0.969960, F1-score - 0.975012, MCC - 0.952407]
+Validation ==>> [validation_accuracy - 96.000, val_precision - 0.524998, val_recall - 0.974663, val_F1-score - 0.664490, MCC - 0.690868]
+
+
+0.5 => [test_accuracy - 96.000, precision - 0.506250, recall - 0.977639, F1-score - 0.661763, MCC - 0.687990, TP - 1045.0, FP - 1032.0, TN - 29946.0, FN - 23.0]
+0.7 => [test_accuracy - 97.000, precision - 0.664738, recall - 0.971062, F1-score - 0.785895, MCC - 0.794068, TP - 1036.0, FP - 547.0, TN - 30431.0, FN - 32.0]
+0.8 => [test_accuracy - 98.000, precision - 0.707493, recall - 0.926633, F1-score - 0.800409, MCC - 0.802620, TP - 1019.0, FP - 382.0, TN - 30596.0, FN - 49.0]
+0.8 => [test_accuracy - 98.000, precision - 0.849837, recall - 0.947735, F1-score - 0.894524, MCC - 0.893028, TP - 1011.0, FP - 184.0, TN - 30794.0, FN - 57.0]
+
+Thresh vs validation::
+0.50 [validation_accuracy - 97.000, precision - 0.593637, recall - 0.987340, F1-score - 0.739521, MCC - 0.755131, TP - 863.0, FP - 579.0, TN - 24182.0, FN - 12.0,]
+0.55 [validation_accuracy - 97.000, precision - 0.640485, recall - 0.981267, F1-score - 0.771993, MCC - 0.783016, TP - 856.0, FP - 472.0, TN - 24289.0, FN - 19.0,]
+0.60 [validation_accuracy - 97.000, precision - 0.666338, recall - 0.973849, F1-score - 0.788686, MCC - 0.796664, TP - 851.0, FP - 419.0, TN - 24342.0, FN - 24.0,]
+0.65 [validation_accuracy - 98.000, precision - 0.701151, recall - 0.971578, F1-score - 0.812977, MCC - 0.817926, TP - 850.0, FP - 353.0, TN - 24408.0, FN - 25.0,]
+0.70 [validation_accuracy - 98.000, precision - 0.732990, recall - 0.963672, F1-score - 0.830030, MCC - 0.833053, TP - 842.0, FP - 305.0, TN - 24456.0, FN - 33.0,]
+0.75 [validation_accuracy - 98.000, precision - 0.767622, recall - 0.969089, F1-score - 0.854600, MCC - 0.856303, TP - 846.0, FP - 253.0, TN - 24508.0, FN - 29.0,]
+0.80 [validation_accuracy - 98.000, precision - 0.791289, recall - 0.975967, F1-score - 0.871878, MCC - 0.873222, TP - 853.0, FP - 223.0, TN - 24538.0, FN - 22.0,]
+0.85 [validation_accuracy - 98.000, precision - 0.808370, recall - 0.955936, F1-score - 0.874475, MCC - 0.873831, TP - 835.0, FP - 195.0, TN - 24566.0, FN - 40.0,]
+0.90 [validation_accuracy - 98.000, precision - 0.860460, recall - 0.950597, F1-score - 0.901747, MCC - 0.900180, TP - 829.0, FP - 132.0, TN - 24629.0, FN - 46.0,]
+0.95 [validation_accuracy - 99.000, precision - 0.908625, recall - 0.938692, F1-score - 0.922539, MCC - 0.920372, TP - 819.0, FP - 81.0, TN - 24680.0, FN - 56.0,]
+
+Train log::
+
+[Epoch - 0.0, batch - 6.568, loss - 0.521971, train_accuracy - 0.533, precision - 0.859155, recall - 0.610000, F1-score - 0.713450, MCC - 0.532901, %+ve labels- 0.49]
+[Epoch - 0.0, batch - 13.136, loss - 0.337457, train_accuracy - 0.720, precision - 0.858586, recall - 0.858586, F1-score - 0.858586, MCC - 0.719972, %+ve labels- 0.49]
+[Epoch - 0.0, batch - 19.704, loss - 0.301043, train_accuracy - 0.775, precision - 0.934066, recall - 0.833333, F1-score - 0.880829, MCC - 0.775100, %+ve labels- 0.48]
+[Epoch - 0.0, batch - 26.273, loss - 0.334627, train_accuracy - 0.681, precision - 0.791667, recall - 0.863636, F1-score - 0.826087, MCC - 0.680659, %+ve labels- 0.48]
+[Epoch - 0.0, batch - 32.841, loss - 0.209250, train_accuracy - 0.850, precision - 0.918367, recall - 0.927835, F1-score - 0.923077, MCC - 0.849952, %+ve labels- 0.49]
+[Epoch - 0.0, batch - 39.409, loss - 0.163142, train_accuracy - 0.879, precision - 0.923913, recall - 0.944444, F1-score - 0.934066, MCC - 0.879211, %+ve labels- 0.49]
+[Epoch - 0.0, batch - 45.977, loss - 0.142354, train_accuracy - 0.902, precision - 0.922330, recall - 0.979381, F1-score - 0.950000, MCC - 0.901712, %+ve labels- 0.49]
+[Epoch - 0.0, batch - 52.545, loss - 0.173305, train_accuracy - 0.874, precision - 0.978495, recall - 0.892157, F1-score - 0.933333, MCC - 0.873718, %+ve labels- 0.48]
+[Epoch - 0.0, batch - 59.113, loss - 0.193247, train_accuracy - 0.851, precision - 0.948454, recall - 0.901961, F1-score - 0.924623, MCC - 0.851153, %+ve labels- 0.49]
+[Epoch - 0.0, batch - 65.681, loss - 0.161631, train_accuracy - 0.891, precision - 0.923077, recall - 0.969697, F1-score - 0.945813, MCC - 0.891158, %+ve labels- 0.48]
+Validating (of 33) .. 
+SNAP -- 1726.606 === [Epoch - 0.0, Batch No - 400.0, Snap No. - 0.0, train_accuracy - 87.127, precision - 0.889234, recall - 0.832295, F1-score - 0.853172, MCC - 0.749080,
+ validation_accuracy - 92.000, val_precision - 0.301316, val_recall - 0.924326, val_F1-score - 0.444031, MCC - 0.496815,] ===
+[Epoch - 0.0, batch - 72.250, loss - 0.167841, train_accuracy - 0.900, precision - 0.952830, recall - 0.952830, F1-score - 0.952830, MCC - 0.899639, %+ve labels- 0.48]
+[Epoch - 0.0, batch - 78.818, loss - 0.196973, train_accuracy - 0.839, precision - 0.913043, recall - 0.913043, F1-score - 0.913043, MCC - 0.838969, %+ve labels- 0.48]
+[Epoch - 0.0, batch - 85.386, loss - 0.090000, train_accuracy - 0.951, precision - 1.000000, recall - 0.947368, F1-score - 0.972973, MCC - 0.950950, %+ve labels- 0.49]
+[Epoch - 0.0, batch - 91.954, loss - 0.107023, train_accuracy - 0.960, precision - 0.966292, recall - 0.988506, F1-score - 0.977273, MCC - 0.959617, %+ve labels- 0.48]
+[Epoch - 0.0, batch - 98.522, loss - 0.146940, train_accuracy - 0.880, precision - 0.938776, recall - 0.938776, F1-score - 0.938776, MCC - 0.879952, %+ve labels- 0.49]
+[Epoch - 1.0, batch - 5.090, loss - 0.151352, train_accuracy - 0.890, precision - 0.956989, recall - 0.927083, F1-score - 0.941799, MCC - 0.890094, %+ve labels- 0.47]
+[Epoch - 1.0, batch - 11.658, loss - 0.127510, train_accuracy - 0.890, precision - 0.958333, recall - 0.929293, F1-score - 0.943590, MCC - 0.890357, %+ve labels- 0.48]
+[Epoch - 1.0, batch - 18.227, loss - 0.117562, train_accuracy - 0.911, precision - 0.933962, recall - 0.980198, F1-score - 0.956522, MCC - 0.911087, %+ve labels- 0.48]
+[Epoch - 1.0, batch - 24.795, loss - 0.173051, train_accuracy - 0.870, precision - 0.955556, recall - 0.905263, F1-score - 0.929730, MCC - 0.870446, %+ve labels- 0.48]
+[Epoch - 1.0, batch - 31.363, loss - 0.115559, train_accuracy - 0.900, precision - 0.950980, recall - 0.950980, F1-score - 0.950980, MCC - 0.899960, %+ve labels- 0.49]
+Validating (of 33) .. 
+SNAP -- 1648.313 === [Epoch - 1.0, Batch No - 800.0, Snap No. - 1.0, train_accuracy - 94.953, precision - 0.961706, recall - 0.938195, F1-score - 0.949360, MCC - 0.904056,
+ validation_accuracy - 95.000, val_precision - 0.480093, val_recall - 0.942051, val_F1-score - 0.619298, MCC - 0.648051,] ===
+[Epoch - 1.0, batch - 37.931, loss - 0.118907, train_accuracy - 0.940, precision - 0.957895, recall - 0.978495, F1-score - 0.968085, MCC - 0.939979, %+ve labels- 0.47]
+[Epoch - 1.0, batch - 44.499, loss - 0.058251, train_accuracy - 0.950, precision - 0.990196, recall - 0.961905, F1-score - 0.975845, MCC - 0.950379, %+ve labels- 0.48]
+[Epoch - 1.0, batch - 51.067, loss - 0.124151, train_accuracy - 0.920, precision - 0.967742, recall - 0.947368, F1-score - 0.957447, MCC - 0.919904, %+ve labels- 0.48]
+[Epoch - 1.0, batch - 57.635, loss - 0.150850, train_accuracy - 0.901, precision - 0.980392, recall - 0.925926, F1-score - 0.952381, MCC - 0.901469, %+ve labels- 0.49]
+[Epoch - 1.0, batch - 64.204, loss - 0.183533, train_accuracy - 0.900, precision - 0.956522, recall - 0.936170, F1-score - 0.946237, MCC - 0.899699, %+ve labels- 0.48]
+[Epoch - 1.0, batch - 70.772, loss - 0.111726, train_accuracy - 0.900, precision - 0.948980, recall - 0.948980, F1-score - 0.948980, MCC - 0.899960, %+ve labels- 0.48]
+[Epoch - 1.0, batch - 77.340, loss - 0.098191, train_accuracy - 0.920, precision - 0.958333, recall - 0.958333, F1-score - 0.958333, MCC - 0.919872, %+ve labels- 0.49]
+[Epoch - 1.0, batch - 83.908, loss - 0.121417, train_accuracy - 0.890, precision - 0.956044, recall - 0.925532, F1-score - 0.940541, MCC - 0.889808, %+ve labels- 0.49]
+[Epoch - 1.0, batch - 90.476, loss - 0.116896, train_accuracy - 0.914, precision - 1.000000, recall - 0.912621, F1-score - 0.954315, MCC - 0.913857, %+ve labels- 0.48]
+[Epoch - 1.0, batch - 97.044, loss - 0.055724, train_accuracy - 0.970, precision - 1.000000, recall - 0.967391, F1-score - 0.983425, MCC - 0.970178, %+ve labels- 0.48]
+Validating (of 33) .. 
+SNAP -- 1643.786 === [Epoch - 1.0, Batch No - 1200.0, Snap No. - 2.0, train_accuracy - 95.875, precision - 0.968806, recall - 0.950961, F1-score - 0.959410, MCC - 0.923096,
+ validation_accuracy - 97.000, val_precision - 0.599213, val_recall - 0.892172, val_F1-score - 0.705029, MCC - 0.715258,] ===
+[Epoch - 2.0, batch - 3.612, loss - 0.067983, train_accuracy - 0.960, precision - 0.989362, recall - 0.968750, F1-score - 0.978947, MCC - 0.960097, %+ve labels- 0.49]
+[Epoch - 2.0, batch - 10.181, loss - 0.064421, train_accuracy - 0.961, precision - 1.000000, recall - 0.961905, F1-score - 0.980583, MCC - 0.960750, %+ve labels- 0.49]
+[Epoch - 2.0, batch - 16.749, loss - 0.083546, train_accuracy - 0.950, precision - 0.988889, recall - 0.956989, F1-score - 0.972678, MCC - 0.950081, %+ve labels- 0.48]
+[Epoch - 2.0, batch - 23.317, loss - 0.124913, train_accuracy - 0.930, precision - 0.978261, recall - 0.947368, F1-score - 0.962567, MCC - 0.930141, %+ve labels- 0.49]
+[Epoch - 2.0, batch - 29.885, loss - 0.098105, train_accuracy - 0.921, precision - 0.988764, recall - 0.926316, F1-score - 0.956522, MCC - 0.921236, %+ve labels- 0.48]
+[Epoch - 2.0, batch - 36.453, loss - 0.129615, train_accuracy - 0.917, precision - 0.951220, recall - 0.951220, F1-score - 0.951220, MCC - 0.917321, %+ve labels- 0.48]
+[Epoch - 2.0, batch - 43.021, loss - 0.130525, train_accuracy - 0.921, precision - 0.978495, recall - 0.938144, F1-score - 0.957895, MCC - 0.920572, %+ve labels- 0.49]
+[Epoch - 2.0, batch - 49.589, loss - 0.049636, train_accuracy - 0.961, precision - 1.000000, recall - 0.957447, F1-score - 0.978261, MCC - 0.960537, %+ve labels- 0.47]
+[Epoch - 2.0, batch - 56.158, loss - 0.074736, train_accuracy - 0.930, precision - 0.977273, recall - 0.945055, F1-score - 0.960894, MCC - 0.929663, %+ve labels- 0.48]
+[Epoch - 2.0, batch - 62.726, loss - 0.111709, train_accuracy - 0.919, precision - 0.981982, recall - 0.947826, F1-score - 0.964602, MCC - 0.919419, %+ve labels- 0.49]
+Validating (of 33) .. 
+SNAP -- 1654.677 === [Epoch - 2.0, Batch No - 1600.0, Snap No. - 3.0, train_accuracy - 96.573, precision - 0.975484, recall - 0.959028, F1-score - 0.966954, MCC - 0.936802,
+ validation_accuracy - 95.000, val_precision - 0.465419, val_recall - 0.964069, val_F1-score - 0.614497, MCC - 0.646052,] ===
+[Epoch - 2.0, batch - 69.294, loss - 0.087904, train_accuracy - 0.950, precision - 0.989899, recall - 0.960784, F1-score - 0.975124, MCC - 0.950438, %+ve labels- 0.48]
+[Epoch - 2.0, batch - 75.862, loss - 0.040258, train_accuracy - 0.980, precision - 0.980952, recall - 1.000000, F1-score - 0.990385, MCC - 0.980167, %+ve labels- 0.49]
+[Epoch - 2.0, batch - 82.430, loss - 0.114651, train_accuracy - 0.928, precision - 0.952381, recall - 0.963855, F1-score - 0.958084, MCC - 0.928092, %+ve labels- 0.48]
+[Epoch - 2.0, batch - 88.998, loss - 0.133737, train_accuracy - 0.900, precision - 0.960784, recall - 0.942308, F1-score - 0.951456, MCC - 0.900100, %+ve labels- 0.48]
+[Epoch - 2.0, batch - 95.567, loss - 0.118592, train_accuracy - 0.950, precision - 0.980583, recall - 0.971154, F1-score - 0.975845, MCC - 0.949988, %+ve labels- 0.48]
+[Epoch - 3.0, batch - 2.135, loss - 0.095481, train_accuracy - 0.930, precision - 0.977273, recall - 0.945055, F1-score - 0.960894, MCC - 0.929663, %+ve labels- 0.48]
+[Epoch - 3.0, batch - 8.703, loss - 0.075953, train_accuracy - 0.940, precision - 0.958763, recall - 0.978947, F1-score - 0.968750, MCC - 0.940098, %+ve labels- 0.49]
+[Epoch - 3.0, batch - 15.271, loss - 0.086036, train_accuracy - 0.941, precision - 0.989691, recall - 0.950495, F1-score - 0.969697, MCC - 0.940770, %+ve labels- 0.48]
+[Epoch - 3.0, batch - 21.839, loss - 0.032500, train_accuracy - 0.979, precision - 0.987805, recall - 0.987805, F1-score - 0.987805, MCC - 0.979330, %+ve labels- 0.48]
+[Epoch - 3.0, batch - 28.407, loss - 0.106862, train_accuracy - 0.940, precision - 0.945055, recall - 0.988506, F1-score - 0.966292, MCC - 0.940060, %+ve labels- 0.49]
+Validating (of 33) .. 
+SNAP -- 1711.215 === [Epoch - 3.0, Batch No - 2000.0, Snap No. - 4.0, train_accuracy - 96.800, precision - 0.975716, recall - 0.963089, F1-score - 0.969146, MCC - 0.941063,
+ validation_accuracy - 97.000, val_precision - 0.572670, val_recall - 0.977273, val_F1-score - 0.709522, MCC - 0.730580,] ===
+[Epoch - 3.0, batch - 34.975, loss - 0.118604, train_accuracy - 0.930, precision - 0.981132, recall - 0.954128, F1-score - 0.967442, MCC - 0.930043, %+ve labels- 0.49]
+[Epoch - 3.0, batch - 41.544, loss - 0.071649, train_accuracy - 0.930, precision - 0.978261, recall - 0.947368, F1-score - 0.962567, MCC - 0.930141, %+ve labels- 0.49]
+[Epoch - 3.0, batch - 48.112, loss - 0.065630, train_accuracy - 0.960, precision - 0.988506, recall - 0.966292, F1-score - 0.977273, MCC - 0.959617, %+ve labels- 0.48]
+[Epoch - 3.0, batch - 54.680, loss - 0.045954, train_accuracy - 0.970, precision - 1.000000, recall - 0.970588, F1-score - 0.985075, MCC - 0.970443, %+ve labels- 0.48]
+[Epoch - 3.0, batch - 61.248, loss - 0.131952, train_accuracy - 0.900, precision - 0.967033, recall - 0.926316, F1-score - 0.946237, MCC - 0.900275, %+ve labels- 0.48]
+[Epoch - 3.0, batch - 67.816, loss - 0.072808, train_accuracy - 0.940, precision - 0.959184, recall - 0.979167, F1-score - 0.969072, MCC - 0.940140, %+ve labels- 0.48]
+[Epoch - 3.0, batch - 74.384, loss - 0.125518, train_accuracy - 0.920, precision - 0.936842, recall - 0.978022, F1-score - 0.956989, MCC - 0.920382, %+ve labels- 0.49]
+[Epoch - 3.0, batch - 80.952, loss - 0.121389, train_accuracy - 0.899, precision - 0.922222, recall - 0.965116, F1-score - 0.943182, MCC - 0.899320, %+ve labels- 0.47]
+[Epoch - 3.0, batch - 87.521, loss - 0.101873, train_accuracy - 0.917, precision - 0.938272, recall - 0.962025, F1-score - 0.950000, MCC - 0.916874, %+ve labels- 0.48]
+[Epoch - 3.0, batch - 94.089, loss - 0.063379, train_accuracy - 0.950, precision - 1.000000, recall - 0.941860, F1-score - 0.970060, MCC - 0.949888, %+ve labels- 0.49]
+Validating (of 33) .. 
+SNAP -- 1902.284 === [Epoch - 3.0, Batch No - 2400.0, Snap No. - 5.0, train_accuracy - 97.110, precision - 0.978509, recall - 0.966942, F1-score - 0.972473, MCC - 0.947433,
+ validation_accuracy - 96.000, val_precision - 0.519479, val_recall - 0.935486, val_F1-score - 0.658722, MCC - 0.680039,] ===
+[Epoch - 4.0, batch - 0.657, loss - 0.076866, train_accuracy - 0.942, precision - 1.000000, recall - 0.940594, F1-score - 0.969388, MCC - 0.941725, %+ve labels- 0.47]
+[Epoch - 4.0, batch - 7.225, loss - 0.064402, train_accuracy - 0.960, precision - 0.989796, recall - 0.970000, F1-score - 0.979798, MCC - 0.960192, %+ve labels- 0.49]
+[Epoch - 4.0, batch - 13.793, loss - 0.034324, train_accuracy - 0.980, precision - 0.977273, recall - 1.000000, F1-score - 0.988506, MCC - 0.979861, %+ve labels- 0.50]
+[Epoch - 4.0, batch - 20.361, loss - 0.110692, train_accuracy - 0.929, precision - 0.956044, recall - 0.966667, F1-score - 0.961326, MCC - 0.929412, %+ve labels- 0.48]
+[Epoch - 4.0, batch - 26.929, loss - 0.068500, train_accuracy - 0.960, precision - 0.989691, recall - 0.969697, F1-score - 0.979592, MCC - 0.960180, %+ve labels- 0.48]
+[Epoch - 4.0, batch - 33.498, loss - 0.083247, train_accuracy - 0.910, precision - 0.946237, recall - 0.956522, F1-score - 0.951351, MCC - 0.909539, %+ve labels- 0.48]
+[Epoch - 4.0, batch - 40.066, loss - 0.120517, train_accuracy - 0.921, precision - 0.980198, recall - 0.942857, F1-score - 0.961165, MCC - 0.920698, %+ve labels- 0.49]
+[Epoch - 4.0, batch - 46.634, loss - 0.024976, train_accuracy - 0.990, precision - 0.988506, recall - 1.000000, F1-score - 0.994220, MCC - 0.989866, %+ve labels- 0.49]
+[Epoch - 4.0, batch - 53.202, loss - 0.039997, train_accuracy - 0.950, precision - 0.978495, recall - 0.968085, F1-score - 0.973262, MCC - 0.949837, %+ve labels- 0.48]
+[Epoch - 4.0, batch - 59.770, loss - 0.050024, train_accuracy - 0.950, precision - 0.979167, recall - 0.969072, F1-score - 0.974093, MCC - 0.949988, %+ve labels- 0.48]
+Validating (of 33) .. 
+SNAP -- 2035.970 === [Epoch - 4.0, Batch No - 2800.0, Snap No. - 6.0, train_accuracy - 97.355, precision - 0.980465, recall - 0.969960, F1-score - 0.975012, MCC - 0.952407,
+ validation_accuracy - 96.000, val_precision - 0.524998, val_recall - 0.974663, val_F1-score - 0.664490, MCC - 0.690868,] ===
+[Epoch - 4.0, batch - 66.338, loss - 0.071453, train_accuracy - 0.950, precision - 0.977778, recall - 0.967033, F1-score - 0.972376, MCC - 0.949594, %+ve labels- 0.48]
+[Epoch - 4.0, batch - 72.906, loss - 0.050501, train_accuracy - 0.970, precision - 0.989247, recall - 0.978723, F1-score - 0.983957, MCC - 0.969922, %+ve labels- 0.48]
+[Epoch - 4.0, batch - 79.475, loss - 0.064654, train_accuracy - 0.950, precision - 0.955556, recall - 0.988506, F1-score - 0.971751, MCC - 0.949780, %+ve labels- 0.48]
+[Epoch - 4.0, batch - 86.043, loss - 0.029756, train_accuracy - 0.980, precision - 0.990291, recall - 0.990291, F1-score - 0.990291, MCC - 0.979982, %+ve labels- 0.48]
+[Epoch - 4.0, batch - 92.611, loss - 0.055321, train_accuracy - 0.961, precision - 1.000000, recall - 0.958763, F1-score - 0.978947, MCC - 0.960688, %+ve labels- 0.49]
+[Epoch - 4.0, batch - 99.179, loss - 0.110603, train_accuracy - 0.941, precision - 0.948980, recall - 0.989362, F1-score - 0.968750, MCC - 0.940683, %+ve labels- 0.48]
+[Epoch - 5.0, batch - 5.747, loss - 0.120285, train_accuracy - 0.920, precision - 0.978261, recall - 0.937500, F1-score - 0.957447, MCC - 0.920485, %+ve labels- 0.49]
+[Epoch - 5.0, batch - 12.315, loss - 0.029423, train_accuracy - 0.980, precision - 0.988506, recall - 0.988506, F1-score - 0.988506, MCC - 0.979656, %+ve labels- 0.48]
+[Epoch - 5.0, batch - 18.883, loss - 0.069391, train_accuracy - 0.940, precision - 0.968085, recall - 0.968085, F1-score - 0.968085, MCC - 0.939783, %+ve labels- 0.48]
+[Epoch - 5.0, batch - 25.452, loss - 0.083863, train_accuracy - 0.931, precision - 0.990385, recall - 0.944954, F1-score - 0.967136, MCC - 0.930920, %+ve labels- 0.48]
+Validating (of 33) .. 
+SNAP -- 2302.553 === [Epoch - 5.0, Batch No - 3200.0, Snap No. - 7.0, train_accuracy - 97.360, precision - 0.980199, recall - 0.970014, F1-score - 0.974885, MCC - 0.952120,
+ validation_accuracy - 97.000, val_precision - 0.571738, val_recall - 0.920975, val_F1-score - 0.694695, MCC - 0.709787,] ===
+[Epoch - 5.0, batch - 32.020, loss - 0.088732, train_accuracy - 0.940, precision - 0.968421, recall - 0.968421, F1-score - 0.968421, MCC - 0.939850, %+ve labels- 0.49]
+[Epoch - 5.0, batch - 38.588, loss - 0.095164, train_accuracy - 0.940, precision - 0.981132, recall - 0.962963, F1-score - 0.971963, MCC - 0.939900, %+ve labels- 0.47]
+[Epoch - 5.0, batch - 45.156, loss - 0.055153, train_accuracy - 0.940, precision - 0.969697, recall - 0.969697, F1-score - 0.969697, MCC - 0.939994, %+ve labels- 0.49]
+[Epoch - 5.0, batch - 51.724, loss - 0.040802, train_accuracy - 0.960, precision - 0.978495, recall - 0.978495, F1-score - 0.978495, MCC - 0.959803, %+ve labels- 0.48]
+[Epoch - 5.0, batch - 58.292, loss - 0.031906, train_accuracy - 0.990, precision - 1.000000, recall - 0.988095, F1-score - 0.994012, MCC - 0.989773, %+ve labels- 0.49]
+[Epoch - 5.0, batch - 64.860, loss - 0.051139, train_accuracy - 0.960, precision - 0.968421, recall - 0.989247, F1-score - 0.978723, MCC - 0.960053, %+ve labels- 0.49]
+[Epoch - 5.0, batch - 71.429, loss - 0.134427, train_accuracy - 0.914, precision - 0.915094, recall - 1.000000, F1-score - 0.955665, MCC - 0.913857, %+ve labels- 0.49]
+[Epoch - 5.0, batch - 77.997, loss - 0.063940, train_accuracy - 0.960, precision - 0.988889, recall - 0.967391, F1-score - 0.978022, MCC - 0.959873, %+ve labels- 0.48]
+[Epoch - 5.0, batch - 84.565, loss - 0.042611, train_accuracy - 0.970, precision - 0.980198, recall - 0.990000, F1-score - 0.985075, MCC - 0.970049, %+ve labels- 0.49]
+[Epoch - 5.0, batch - 91.133, loss - 0.059926, train_accuracy - 0.940, precision - 0.990909, recall - 0.956140, F1-score - 0.973214, MCC - 0.939922, %+ve labels- 0.48]
+Validating (of 33) .. 
+SNAP -- 2388.561 === [Epoch - 5.0, Batch No - 3600.0, Snap No. - 8.0, train_accuracy - 97.445, precision - 0.980409, recall - 0.971793, F1-score - 0.975886, MCC - 0.953854,
+ validation_accuracy - 97.000, val_precision - 0.620458, val_recall - 0.941258, val_F1-score - 0.739331, MCC - 0.751537,] ===
+[Epoch - 5.0, batch - 97.701, loss - 0.077053, train_accuracy - 0.940, precision - 0.958763, recall - 0.978947, F1-score - 0.968750, MCC - 0.940098, %+ve labels- 0.49]
+[Epoch - 6.0, batch - 4.269, loss - 0.053933, train_accuracy - 0.940, precision - 0.977528, recall - 0.956044, F1-score - 0.966667, MCC - 0.939592, %+ve labels- 0.47]
+[Epoch - 6.0, batch - 10.837, loss - 0.023543, train_accuracy - 0.990, precision - 0.989691, recall - 1.000000, F1-score - 0.994819, MCC - 0.990038, %+ve labels- 0.49]
+[Epoch - 6.0, batch - 17.406, loss - 0.077280, train_accuracy - 0.930, precision - 0.969388, recall - 0.959596, F1-score - 0.964467, MCC - 0.930033, %+ve labels- 0.48]
+[Epoch - 6.0, batch - 23.974, loss - 0.038712, train_accuracy - 0.970, precision - 0.989130, recall - 0.978495, F1-score - 0.983784, MCC - 0.969880, %+ve labels- 0.48]
+[Epoch - 6.0, batch - 30.542, loss - 0.046532, train_accuracy - 0.950, precision - 0.989011, recall - 0.957447, F1-score - 0.972973, MCC - 0.950161, %+ve labels- 0.48]
+[Epoch - 6.0, batch - 37.110, loss - 0.056334, train_accuracy - 0.950, precision - 0.989247, recall - 0.958333, F1-score - 0.973545, MCC - 0.950290, %+ve labels- 0.49]
+[Epoch - 6.0, batch - 43.678, loss - 0.037898, train_accuracy - 0.970, precision - 0.990654, recall - 0.981481, F1-score - 0.986047, MCC - 0.969880, %+ve labels- 0.48]
+[Epoch - 6.0, batch - 50.246, loss - 0.022126, train_accuracy - 0.990, precision - 1.000000, recall - 0.989796, F1-score - 0.994872, MCC - 0.990044, %+ve labels- 0.49]
+[Epoch - 6.0, batch - 56.814, loss - 0.070744, train_accuracy - 0.960, precision - 0.979167, recall - 0.979167, F1-score - 0.979167, MCC - 0.959936, %+ve labels- 0.49]
+Validating (of 33) .. 
+SNAP -- 1795.825 === [Epoch - 6.0, Batch No - 4000.0, Snap No. - 9.0, train_accuracy - 97.565, precision - 0.981564, recall - 0.973260, F1-score - 0.977236, MCC - 0.956470,
+ validation_accuracy - 97.000, val_precision - 0.579887, val_recall - 0.933742, val_F1-score - 0.710231, MCC - 0.723212,] ===
+[Epoch - 6.0, batch - 63.383, loss - 0.033532, train_accuracy - 0.970, precision - 0.988764, recall - 0.977778, F1-score - 0.983240, MCC - 0.969716, %+ve labels- 0.48]
+[Epoch - 6.0, batch - 69.951, loss - 0.050546, train_accuracy - 0.990, precision - 1.000000, recall - 0.990000, F1-score - 0.994975, MCC - 0.990050, %+ve labels- 0.49]
+[Epoch - 6.0, batch - 76.519, loss - 0.044820, train_accuracy - 0.960, precision - 0.989011, recall - 0.967742, F1-score - 0.978261, MCC - 0.959941, %+ve labels- 0.48]
+[Epoch - 6.0, batch - 83.087, loss - 0.050689, train_accuracy - 0.960, precision - 0.980000, recall - 0.980000, F1-score - 0.980000, MCC - 0.960000, %+ve labels- 0.48]
+[Epoch - 6.0, batch - 89.655, loss - 0.034773, train_accuracy - 0.990, precision - 1.000000, recall - 0.990291, F1-score - 0.995122, MCC - 0.990044, %+ve labels- 0.48]
+[Epoch - 6.0, batch - 96.223, loss - 0.052943, train_accuracy - 0.980, precision - 0.988372, recall - 0.988372, F1-score - 0.988372, MCC - 0.979600, %+ve labels- 0.48]
+[Epoch - 7.0, batch - 2.791, loss - 0.039628, train_accuracy - 0.970, precision - 0.988506, recall - 0.977273, F1-score - 0.982857, MCC - 0.969575, %+ve labels- 0.48]
+[Epoch - 7.0, batch - 9.360, loss - 0.066502, train_accuracy - 0.950, precision - 0.989247, recall - 0.958333, F1-score - 0.973545, MCC - 0.950290, %+ve labels- 0.48]
+[Epoch - 7.0, batch - 15.928, loss - 0.067488, train_accuracy - 0.951, precision - 1.000000, recall - 0.947368, F1-score - 0.972973, MCC - 0.950950, %+ve labels- 0.49]
+[Epoch - 7.0, batch - 22.496, loss - 0.055305, train_accuracy - 0.970, precision - 1.000000, recall - 0.968750, F1-score - 0.984127, MCC - 0.970355, %+ve labels- 0.48]
+Validating (of 33) .. 
+SNAP -- 1736.152 === [Epoch - 7.0, Batch No - 4400.0, Snap No. - 10.0, train_accuracy - 97.615, precision - 0.981448, recall - 0.974325, F1-score - 0.977715, MCC - 0.957482,
+ validation_accuracy - 96.000, val_precision - 0.542493, val_recall - 0.973918, val_F1-score - 0.678086, MCC - 0.704648,] ===
+[Epoch - 7.0, batch - 29.064, loss - 0.066071, train_accuracy - 0.950, precision - 0.954545, recall - 0.988235, F1-score - 0.971098, MCC - 0.949527, %+ve labels- 0.49]
+[Epoch - 7.0, batch - 35.632, loss - 0.073001, train_accuracy - 0.940, precision - 0.957895, recall - 0.978495, F1-score - 0.968085, MCC - 0.939979, %+ve labels- 0.48]
+[Epoch - 7.0, batch - 42.200, loss - 0.065612, train_accuracy - 0.980, precision - 1.000000, recall - 0.979798, F1-score - 0.989796, MCC - 0.980190, %+ve labels- 0.48]
+[Epoch - 7.0, batch - 48.768, loss - 0.060165, train_accuracy - 0.980, precision - 0.989796, recall - 0.989796, F1-score - 0.989796, MCC - 0.979992, %+ve labels- 0.48]
+[Epoch - 7.0, batch - 55.337, loss - 0.069152, train_accuracy - 0.980, precision - 1.000000, recall - 0.981481, F1-score - 0.990654, MCC - 0.980101, %+ve labels- 0.48]
+[Epoch - 7.0, batch - 61.905, loss - 0.043285, train_accuracy - 0.970, precision - 0.968085, recall - 1.000000, F1-score - 0.983784, MCC - 0.970279, %+ve labels- 0.48]
+[Epoch - 7.0, batch - 68.473, loss - 0.053300, train_accuracy - 0.959, precision - 0.991150, recall - 0.973913, F1-score - 0.982456, MCC - 0.959404, %+ve labels- 0.47]
+[Epoch - 7.0, batch - 75.041, loss - 0.045060, train_accuracy - 0.970, precision - 1.000000, recall - 0.969072, F1-score - 0.984293, MCC - 0.970384, %+ve labels- 0.49]
+[Epoch - 7.0, batch - 81.609, loss - 0.050500, train_accuracy - 0.960, precision - 0.988636, recall - 0.966667, F1-score - 0.977528, MCC - 0.959711, %+ve labels- 0.49]
+[Epoch - 7.0, batch - 88.177, loss - 0.078302, train_accuracy - 0.941, precision - 0.989474, recall - 0.949495, F1-score - 0.969072, MCC - 0.940724, %+ve labels- 0.48]
+Validating (of 33) .. 
+SNAP -- 1721.340 === [Epoch - 7.0, Batch No - 4800.0, Snap No. - 11.0, train_accuracy - 97.715, precision - 0.982034, recall - 0.975492, F1-score - 0.978605, MCC - 0.959217,
+ validation_accuracy - 94.000, val_precision - 0.397965, val_recall - 0.943362, val_F1-score - 0.549748, MCC - 0.589872,] ===
+[Epoch - 7.0, batch - 94.745, loss - 0.034792, train_accuracy - 0.970, precision - 1.000000, recall - 0.965116, F1-score - 0.982249, MCC - 0.969727, %+ve labels- 0.48]
+[Epoch - 8.0, batch - 1.314, loss - 0.090998, train_accuracy - 0.930, precision - 0.945652, recall - 0.977528, F1-score - 0.961326, MCC - 0.929805, %+ve labels- 0.49]
+[Epoch - 8.0, batch - 7.882, loss - 0.064532, train_accuracy - 0.960, precision - 0.990000, recall - 0.970588, F1-score - 0.980198, MCC - 0.960192, %+ve labels- 0.48]
+[Epoch - 8.0, batch - 14.450, loss - 0.069029, train_accuracy - 0.941, precision - 0.989691, recall - 0.950495, F1-score - 0.969697, MCC - 0.940770, %+ve labels- 0.49]
+[Epoch - 8.0, batch - 21.018, loss - 0.110970, train_accuracy - 0.919, precision - 0.955357, recall - 0.972727, F1-score - 0.963964, MCC - 0.919217, %+ve labels- 0.48]
+[Epoch - 8.0, batch - 27.586, loss - 0.107155, train_accuracy - 0.910, precision - 0.968085, recall - 0.938144, F1-score - 0.952880, MCC - 0.910249, %+ve labels- 0.47]
+[Epoch - 8.0, batch - 34.154, loss - 0.062820, train_accuracy - 0.950, precision - 0.990000, recall - 0.961165, F1-score - 0.975369, MCC - 0.950428, %+ve labels- 0.48]
+[Epoch - 8.0, batch - 40.722, loss - 0.079343, train_accuracy - 0.950, precision - 0.989691, recall - 0.960000, F1-score - 0.974619, MCC - 0.950428, %+ve labels- 0.48]
+[Epoch - 8.0, batch - 47.291, loss - 0.052269, train_accuracy - 0.949, precision - 0.976744, recall - 0.965517, F1-score - 0.971098, MCC - 0.949122, %+ve labels- 0.47]
+[Epoch - 8.0, batch - 53.859, loss - 0.093365, train_accuracy - 0.900, precision - 0.956044, recall - 0.935484, F1-score - 0.945652, MCC - 0.899548, %+ve labels- 0.48]
+Validating (of 33) .. 
+SNAP -- 1736.104 === [Epoch - 8.0, Batch No - 5200.0, Snap No. - 12.0, train_accuracy - 97.722, precision - 0.982184, recall - 0.975298, F1-score - 0.978588, MCC - 0.959282,
+ validation_accuracy - 96.000, val_precision - 0.483573, val_recall - 0.943651, val_F1-score - 0.632160, MCC - 0.658629,] ===
+[Epoch - 8.0, batch - 60.427, loss - 0.063239, train_accuracy - 0.970, precision - 0.990991, recall - 0.982143, F1-score - 0.986547, MCC - 0.969648, %+ve labels- 0.48]
+[Epoch - 8.0, batch - 66.995, loss - 0.041234, train_accuracy - 0.969, precision - 0.988095, recall - 0.976471, F1-score - 0.982249, MCC - 0.969313, %+ve labels- 0.48]
+[Epoch - 8.0, batch - 73.563, loss - 0.082810, train_accuracy - 0.959, precision - 0.976744, recall - 0.976744, F1-score - 0.976744, MCC - 0.959200, %+ve labels- 0.48]
+[Epoch - 8.0, batch - 80.131, loss - 0.045266, train_accuracy - 0.970, precision - 0.979798, recall - 0.989796, F1-score - 0.984772, MCC - 0.970043, %+ve labels- 0.49]
+[Epoch - 8.0, batch - 86.700, loss - 0.029728, train_accuracy - 0.980, precision - 0.989899, recall - 0.989899, F1-score - 0.989899, MCC - 0.979998, %+ve labels- 0.49]
+[Epoch - 8.0, batch - 93.268, loss - 0.069059, train_accuracy - 0.960, precision - 0.980198, recall - 0.980198, F1-score - 0.980198, MCC - 0.959996, %+ve labels- 0.48]
+[Epoch - 8.0, batch - 99.836, loss - 0.023073, train_accuracy - 1.000, precision - 1.000000, recall - 1.000000, F1-score - 1.000000, MCC - 1.000000, %+ve labels- 0.49]
+[Epoch - 9.0, batch - 6.404, loss - 0.029636, train_accuracy - 0.970, precision - 0.970588, recall - 1.000000, F1-score - 0.985075, MCC - 0.970443, %+ve labels- 0.48]
+[Epoch - 9.0, batch - 12.972, loss - 0.043071, train_accuracy - 0.970, precision - 0.977273, recall - 0.988506, F1-score - 0.982857, MCC - 0.969575, %+ve labels- 0.48]
+[Epoch - 9.0, batch - 19.540, loss - 0.062282, train_accuracy - 0.939, precision - 0.953488, recall - 0.976190, F1-score - 0.964706, MCC - 0.938822, %+ve labels- 0.50]
+Validating (of 33) .. 
+SNAP -- 1729.508 === [Epoch - 9.0, Batch No - 5600.0, Snap No. - 13.0, train_accuracy - 97.847, precision - 0.983114, recall - 0.977207, F1-score - 0.980004, MCC - 0.961563,
+ validation_accuracy - 97.000, val_precision - 0.576970, val_recall - 0.932756, val_F1-score - 0.703833, MCC - 0.719615,] ===
+[Epoch - 9.0, batch - 26.108, loss - 0.081364, train_accuracy - 0.940, precision - 0.959596, recall - 0.979381, F1-score - 0.969388, MCC - 0.940170, %+ve labels- 0.48]
+[Epoch - 9.0, batch - 32.677, loss - 0.039156, train_accuracy - 0.980, precision - 0.988506, recall - 0.988506, F1-score - 0.988506, MCC - 0.979656, %+ve labels- 0.48]
+[Epoch - 9.0, batch - 39.245, loss - 0.021320, train_accuracy - 0.980, precision - 0.977011, recall - 1.000000, F1-score - 0.988372, MCC - 0.979806, %+ve labels- 0.48]
+[Epoch - 9.0, batch - 45.813, loss - 0.058698, train_accuracy - 0.970, precision - 0.988636, recall - 0.977528, F1-score - 0.983051, MCC - 0.969648, %+ve labels- 0.48]
+[Epoch - 9.0, batch - 52.381, loss - 0.038130, train_accuracy - 0.990, precision - 0.989899, recall - 1.000000, F1-score - 0.994924, MCC - 0.990048, %+ve labels- 0.48]
+[Epoch - 9.0, batch - 58.949, loss - 0.031705, train_accuracy - 0.969, precision - 0.982456, recall - 0.991150, F1-score - 0.986784, MCC - 0.969494, %+ve labels- 0.48]
+[Epoch - 9.0, batch - 65.517, loss - 0.057922, train_accuracy - 0.957, precision - 0.973333, recall - 0.973333, F1-score - 0.973333, MCC - 0.957333, %+ve labels- 0.50]
+[Epoch - 9.0, batch - 72.085, loss - 0.063395, train_accuracy - 0.970, precision - 0.979381, recall - 0.989583, F1-score - 0.984456, MCC - 0.970013, %+ve labels- 0.48]
+[Epoch - 9.0, batch - 78.654, loss - 0.034584, train_accuracy - 0.970, precision - 0.981132, recall - 0.990476, F1-score - 0.985782, MCC - 0.969959, %+ve labels- 0.48]
+[Epoch - 9.0, batch - 85.222, loss - 0.040606, train_accuracy - 0.960, precision - 0.978022, recall - 0.978022, F1-score - 0.978022, MCC - 0.959673, %+ve labels- 0.48]
+Validating (of 33) .. 
+SNAP -- 2001.117 === [Epoch - 9.0, Batch No - 6000.0, Snap No. - 14.0, train_accuracy - 97.815, precision - 0.982764, recall - 0.977152, F1-score - 0.979812, MCC - 0.961356,
+ validation_accuracy - 98.000, val_precision - 0.667735, val_recall - 0.945839, val_F1-score - 0.770954, MCC - 0.780711,] ===
+[Epoch - 9.0, batch - 91.790, loss - 0.025261, train_accuracy - 0.980, precision - 0.988636, recall - 0.988636, F1-score - 0.988636, MCC - 0.979708, %+ve labels- 0.48]
+[Epoch - 9.0, batch - 98.358, loss - 0.076579, train_accuracy - 0.940, precision - 0.979167, recall - 0.959184, F1-score - 0.969072, MCC - 0.940140, %+ve labels- 0.49]
